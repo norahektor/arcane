@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../arcaneimg/piltover1.webp");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Space Mono', monospace;
+}
+
+.header{
+  color: black;
+  text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 249, 208, 1) 10%, rgba(172, 74, 11, 0) 60%); /*Linear gradient från vitt till inget :) */
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.menu{
+  background-image: linear-gradient(rgba(204, 98, 0, 0.84), rgba(172, 74, 11, 0));
+  padding: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.introduction{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding: 20px;
+}
+
+.content{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.49);
+  padding: 20px;
+}
+
+a{
+  color: white;
+}
+
+#storyline{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#uuu{
+  font-size: 20px;
+}
+
+#storyline{
+  color: rgb(255, 118, 88);
+}
+
+/*Härifrån är det hur sidan ska se ut på telefon*/
+
+@media only screen and (max-width: 500px){
+
+h1{
+  padding-top: 80px;
+  font-size: 100%;
+}
+
+  .menu{
+    background-color: rgb(247, 151, 37);
+    font-size: 18px;
+    padding: 5px;
+  }
+  #menu{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}

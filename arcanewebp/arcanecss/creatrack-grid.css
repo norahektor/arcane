@@ -1,0 +1,39 @@
+.grid-container{
+  display: grid;
+  height: 100%;
+  grid-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+.header{
+  grid-column: 1 / -1;
+  grid-row: 1 / 1;
+}
+
+.menu{
+  grid-column: 1;
+  grid-row: 2 / 6;
+}
+
+.content{
+  grid-column: 2 / -1;
+  grid-row: 2 / 8;
+}
+
+#jesus{
+  grid-column: 9 / 11;
+  grid-row: 4 / 5;
+}
+
+.footer{
+  grid-column: 1 / -1;
+  grid-row: 8 / 9;
+}
+
+@media only screen and (max-width: 500px){
+  .menu{
+    grid-column: 1 / 1;
+    grid-row: 2 / 6;
+  }
+}

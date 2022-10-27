@@ -1,0 +1,81 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(84, 179, 99);
+  }
+
+  body{
+    background-image: url("../arcaneimg/bloominwinter.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Space Mono', monospace;
+    color: rgb(7, 34, 15);
+  }
+
+.header{
+background-image: linear-gradient(rgba(182, 250, 244, 0.71), rgba(253, 255, 250, 0), rgba(253, 255, 250, 0), rgba(253, 255, 250, 0), rgba(253, 255, 250, 0));
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.menu{
+  background-color: rgba(133, 231, 160, 0.61);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  color: rgb(34, 48, 18);
+  font-size: 19px;
+}
+
+.content{
+  background-color: rgba(226, 255, 239, 0.51);
+  padding: 30px;
+}
+
+a{
+  color: rgb(34, 48, 18);
+}
+
+#soundtrackk{
+  color: rgb(24, 8, 124);
+}
+
+h1{
+  padding-top: 50px;
+}
+
+.footer{
+  background-color: rgba(226, 255, 239, 0.9);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px){
+  .menu{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .menyy{
+    font-size: 23px;
+  }
+  .content{
+    font-size: 17px;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  img{
+    width: 70%;
+  }
+}

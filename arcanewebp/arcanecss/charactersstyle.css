@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+h1{
+  color: white;
+  padding: 30px;
+}
+
+/*Nedan är bakre färg, efter det riktiga bilden*/
+
+body{
+  background-color: black;
+}
+
+body{
+  background-image: url("../arcaneimg/zaunstreet.jpeg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+
+.title1{
+  background-image: linear-gradient(rgba(45, 39, 52, 0.77), rgba(101, 124, 190, 0), rgba(101, 124, 190, 0), rgba(101, 124, 190, 0));
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+}
+
+.menu{
+  padding: 50px;
+  background-color: rgba(4, 38, 41, 0.74);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.content{
+  background-color: rgba(42, 37, 30, 0.78);
+  padding: 30px;
+  color: white;
+}
+
+a{
+font-size: 20px;
+  color: white;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.footer{
+  background-color: rgba(42, 37, 30, 0.78);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px){
+
+.menu{
+  padding: 16px;
+  font-size: 12px;
+}
+
+li{
+  font-size: 12px;
+}
+
+.content{
+  font-size: 14px;
+}
+
+#foot{
+  font-size: 14px;
+}
+
+}
