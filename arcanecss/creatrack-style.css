@@ -36,6 +36,13 @@ background-image: linear-gradient(rgba(182, 250, 244, 0.71), rgba(253, 255, 250,
   font-size: 19px;
 }
 
+#jesus{
+  width: 30%;
+}
+#yee{
+  width: 30%;
+}
+
 .content{
   background-color: rgba(226, 255, 239, 0.51);
   padding: 30px;
